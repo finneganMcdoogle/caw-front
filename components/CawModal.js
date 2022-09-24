@@ -35,7 +35,7 @@ const CawModal = ({ isOpenProp, onCloseProp }) => (
       <ModalFooter>
         <Box p="6" alignSelf="center" justifySelf="center">
           <Button variant="outline">
-            <Text>Caw</Text>
+            <Text>Caw 🦤</Text>
           </Button>
         </Box>
 
