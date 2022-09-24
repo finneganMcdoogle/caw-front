@@ -49,7 +49,7 @@ const ConnectWalletButton = ({
             if (!connected) {
               return (
                 <Button
-                  width="10vw"
+                  width="15vw"
                   variant="outline"
                   bgGradient="linear(to-l, brand.100, brand.200)"
                   onClick={openConnectModal}
@@ -62,7 +62,7 @@ const ConnectWalletButton = ({
             if (chain.unsupported) {
               return (
                 <Button
-                  width="10vw"
+                  width="15vw"
                   variant="outline"
                   bgGradient="linear(to-l, brand.100, brand.200)"
                   onClick={openChainModal}
@@ -120,7 +120,7 @@ const ConnectWalletButton = ({
                       <PopoverFooter>
                         <Button
                           onClick={openAccountModal}
-                          width="10vw"
+                          width="15vw"
                           variant="outline"
                           bgGradient="linear(to-l, brand.100, brand.200)"
                         >
